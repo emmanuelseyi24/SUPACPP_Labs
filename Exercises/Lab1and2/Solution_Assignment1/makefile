@@ -5,10 +5,10 @@ TARGET = AnalyseData
 OBJECTS = AnalyseData.o CustomFunction.o
 
 all: $(TARGET)
-
+ 
 $(TARGET): $(OBJECTS)
 	$(CC) $(FLAGS) $(OBJECTS) -o $(TARGET)
-
+	
 AnalyseData.o: AnalyseData.cpp CustomFunction.h
 	$(CC) $(FLAGS) -c AnalyseData.cpp
 

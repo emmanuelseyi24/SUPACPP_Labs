@@ -29,7 +29,7 @@ int main() {
 
     char again;
     do {
-
+ 
     int n;
     howmany();
     cin >> n;

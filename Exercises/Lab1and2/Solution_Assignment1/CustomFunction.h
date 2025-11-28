@@ -53,3 +53,4 @@ void leastSquares(const std::vector<float> &x,
                   float &m, float &b, float &chi2);
 
 #endif
+
