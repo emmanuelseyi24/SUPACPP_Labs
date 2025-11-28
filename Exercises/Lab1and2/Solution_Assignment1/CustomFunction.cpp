@@ -4,7 +4,7 @@
 #include <cmath>
 
 using namespace std;
-   
+    
 void howmany() {
     cout << "How many data points do you want to print? ";
 }

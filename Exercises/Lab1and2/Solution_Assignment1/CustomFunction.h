@@ -6,7 +6,7 @@
 #include <iostream> 
     
 void howmany();                    
-float mag(float x, float y);      
+float mag(float x, float y);       
 
 void readData(const std::string &file,
               std::vector<float> &x,
