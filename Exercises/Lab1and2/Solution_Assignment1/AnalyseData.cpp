@@ -19,7 +19,7 @@ int main() {
     vector<float> datax, datay, magnitude, errorX, errorY, xPowYint;
     vector<int>yint;
 
-    // 🔥 readData from the customfile
+    // readData from the customfile
     readData(inputfile, datax, datay, yint, magnitude, xPowYint);
     readDataERR(inputfile_error, errorX, errorY);
 
@@ -61,10 +61,10 @@ cout << " Least squares fit:  y = " << slope << "x + " << intercept << endl;
 cout << " Chi2 = " << chi2 << endl;
 
 // Writes fit functions and other info.
-outputfile2 << " ---------------------------------" << endl;
+outputfile2 << " --------------------------------------" << endl;
 outputfile2 << "# Least squares fit for << " << n << " data points :  y = " << slope << "x + " << intercept << endl;
 outputfile2 << "# Chi2 = " << chi2 << endl;
-outputfile2 << " -------------------------------- " << endl;
+outputfile2 << " --------------------------------------" << endl;
 
 cout << " Do you want to try another number of data points? (y/n): ";
 cin >> again;

@@ -96,7 +96,7 @@ void printData(int n,
         cout << " Points " << x[i] << " and " << y[i]
              << " has magnitude " << magnitude[i] << ". Y to a whole number = " << yint[i] << ", and recursive power x^y = " << xPowYint[i] << "."<< endl;
 
-        out << x[i] << " " << y[i] << " " << magnitude[i] << yint[i] << xPowYint[i] <<endl;
+        out << x[i] << " " << y[i] << "   " << magnitude[i] << "   " << yint[i] <<"   " << xPowYint[i] <<endl;
         // Writes fit functions and other info.
 
     }
