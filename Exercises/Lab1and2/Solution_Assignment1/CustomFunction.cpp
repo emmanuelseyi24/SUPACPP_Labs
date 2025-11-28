@@ -19,7 +19,7 @@ int conv(float y) {
     return static_cast<int>(std::round(y)); 
 }
 
-//recursive power function. 
+//recursive power function.  
 float recurs(float x, int yint) {
         if (yint == 0) return 1.0f;
         if (yint == 1) return x;

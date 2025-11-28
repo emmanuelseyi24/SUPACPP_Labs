@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
-  
+   
 void howmany();                    
 float mag(float x, float y);      
 
