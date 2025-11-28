@@ -177,3 +177,4 @@ void leastSquares(const std::vector<float> &x,
         chiSquare += (diff * diff) / sigma2;
     }
 }
+  
