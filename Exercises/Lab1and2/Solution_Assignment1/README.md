@@ -13,4 +13,4 @@ You will have access to the points you used (first two columns), magnitude (thir
 You will get another text file stores the linear fit equation and ChiSquare.
 
 You can compute by entering Y.
-  
+      
