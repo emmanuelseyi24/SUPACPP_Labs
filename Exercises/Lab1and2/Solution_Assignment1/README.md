@@ -12,5 +12,5 @@ You will have access to the points you used (first two columns), magnitude (thir
 
 You will get another text file stores the linear fit equation and ChiSquare.
 
-You can start other data points by entering Y.
+You can compute by entering Y.
 
