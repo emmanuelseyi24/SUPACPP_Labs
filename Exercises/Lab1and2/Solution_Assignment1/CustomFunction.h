@@ -1,6 +1,6 @@
 #ifndef CUSTOMFUNCTION_H
 #define CUSTOMFUNCTION_H
-
+     
 #include <vector>
 #include <string>
 #include <iostream>

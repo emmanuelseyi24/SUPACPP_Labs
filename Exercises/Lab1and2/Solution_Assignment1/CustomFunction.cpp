@@ -99,7 +99,7 @@ void printData(int n,
         out << x[i] << " " << y[i] << "   " << magnitude[i] << "   " << yint[i] <<"   " << xPowYint[i] <<endl;
         // Writes fit functions and other info.
 
-    }
+    }  
 }
 
 
@@ -159,7 +159,7 @@ void leastSquares(const std::vector<float> &x,
         sumXY += w * x[i] * y[i];
         sumX2 += w * x[i] * x[i];
     }
-
+    
     // Avoid dividing by zero
     float avoidzero = sumW * sumX2 - (sumX * sumX);
 
